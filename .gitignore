@@ -1,0 +1,9 @@
+*__pycache__
+*InferenceTestResults
+*trainingdata
+*TrainingResults
+.venv
+Results
+*.pt
+*.pth
+*.vscode

@@ -1,0 +1,7 @@
+opencv-python==4.10.0.*
+numpy==1.24.*
+v4l2py==2.2.*
+pandas==2.0.*
+pillow==10.2.*
+pyserial==3.5.*
+natsort==8.4.*
