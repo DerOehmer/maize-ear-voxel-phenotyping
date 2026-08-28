@@ -1,0 +1,90 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "Accurate 3D Maize Ear Phenotyping Using Voxel Grids Derived from RGB Machine Vision"
+type: software
+version: 0.1.0
+license: AGPL-3.0-only
+repository-code: "https://github.com/DerOehmer/maize-ear-voxel-phenotyping"
+
+authors:
+  - family-names: Oehme
+    given-names: "Leon H."
+  - family-names: Schrag
+    given-names: Tobias
+  - family-names: Qi
+    given-names: Peng
+  - family-names: Stürmer-Stephan
+    given-names: Bastian
+  - family-names: Ahammad
+    given-names: "Khandoker T."
+  - family-names: Wanke
+    given-names: Daniel
+  - family-names: Würschum
+    given-names: Tobias
+  - family-names: He
+    given-names: Xiongkui
+  - family-names: Müller
+    given-names: Joachim
+
+abstract: >-
+  Maize ear phenotyping is receiving increasing attention, driven by the
+  demand of plant scientists for large-scale trait data and enabled by the
+  rapid development of AI-based machine vision. While manual measurement of
+  ear traits is labour-intensive and often destructive, existing digital
+  solutions typically rely on a limited number of 2D images without capturing
+  the entire 3D structure of an ear. Therefore, a novel 3D ear scanning
+  pipeline was developed that computes voxel grids based on RGB images
+  automatically captured from 100 different viewing angles. For kernel
+  segmentation, open-source deep learning models for object detection and
+  segmentation were evaluated and combined, achieving a Dice score of 0.94 on
+  2D ear images. A novel strategy for mapping 2D segmentation masks to
+  3D-oriented voxels resulted in high coefficients of determination (R2) for
+  predicting kernel number (R2 = 0.98), kernel row number (R2 = 0.77), and
+  maximum kernel row length (R2 = 0.87). Similarly, ear width (R2 = 0.82), ear
+  length (R2 = 0.96), and ear volume (R2 = 0.97) were accurately predicted
+  when compared to manual reference measurements. The applicability of the
+  pipeline was demonstrated on ears grown under two levels of phosphorus
+  supply, which revealed significant effects on ear width, ear length, ear
+  volume, and kernel size. Data acquisition required 30 s per ear, while
+  computation of all traits took an average of 47 s. This study establishes an
+  accurate and fast 3D phenotyping pipeline while bridging high-throughput ear
+  phenotyping with plant nutrition research, demonstrating its potential to
+  link structural traits with nutrient-driven responses in crops.
+
+keywords:
+  - maize
+  - phenotyping
+  - three-dimensional
+  - voxelization
+  - segmentation
+  - deep learning
+  - phosphorus
+
+preferred-citation:
+  type: article
+  title: "Accurate 3D Maize Ear Phenotyping Using Voxel Grids Derived from RGB Machine Vision"
+  authors:
+    - family-names: Oehme
+      given-names: "Leon H."
+    - family-names: Schrag
+      given-names: Tobias
+    - family-names: Qi
+      given-names: Peng
+    - family-names: Stürmer-Stephan
+      given-names: Bastian
+    - family-names: Ahammad
+      given-names: "Khandoker T."
+    - family-names: Wanke
+      given-names: Daniel
+    - family-names: Würschum
+      given-names: Tobias
+    - family-names: He
+      given-names: Xiongkui
+    - family-names: Müller
+      given-names: Joachim
+  journal: "Plant Phenomics"
+  year: 2026
+  start: "100274"
+  issn: "2643-6515"
+  doi: "10.1016/j.plaphe.2026.100274"
+  url: "https://www.sciencedirect.com/science/article/pii/S2643651526001111"
