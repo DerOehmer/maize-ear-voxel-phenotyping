@@ -95,6 +95,16 @@ On the Jetson, installation of dependencies and controling the ear scanner is bo
 chmod +x scanning_pipeline.sh
 ./scanning_pipeline.sh
 ```
+## License
 
+The original source code in this repository is licensed under the
+GNU Affero General Public License v3.0 only (AGPL-3.0-only).
+
+This project depends on third-party software with separate licenses,
+including Ultralytics YOLO under AGPL-3.0 and Meta's Segment Anything
+under Apache-2.0. See `THIRD_PARTY_NOTICES.md` for details.
+
+Model weights, datasets, figures, and manuscript materials may be
+subject to separate licenses as indicated with those files.
 
 
