@@ -2,7 +2,7 @@
 name = "ear_traits"
 version = "0.1.0"
 description = ""
-authors = ["DerOehmer <leon.oehme@uni-hohenheim.de>"]
+license = "AGPL-3.0-only"
 readme = "README.md"
 
 [tool.poetry.dependencies]
